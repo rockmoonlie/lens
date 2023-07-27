@@ -17,7 +17,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 68px;
+    height: 91px;
 }
 
 nav>div:last-of-type{
@@ -26,6 +26,16 @@ nav>div:last-of-type{
     width: 30vw;
     font-size: 14px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+nav>div:last-of-type a{
+    text-decoration: none;
+    color: black;
+}
+
+nav>div:last-of-type a:hover{
+    text-decoration: underline;
 }
 
 nav>div:first-child>img{
@@ -50,8 +60,8 @@ main{
 }
 
 article{
-    width: 400px;
-    height: 236px;
+    width: 495px;
+    height: 308px;
 }
 
 article>h1{
@@ -65,18 +75,18 @@ article>p{
     color: white;
     line-height:18.413px ;
     padding-bottom:13px;
-    font-size: 14px;
+    font-size: 17.6px;
 }
 
 span{
     color:#a3b3f9;
 }
 
-button{
-    width: 197px;
-    height: 49px;
-    border-color: #a4a5df;
-    border-radius: 40px;
+article>a{
+    width: 255.16px;
+    height: 61.6px;
+    background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 50px;
     font-size: 12px;
     background-color: #a4a5df;
     color: white;
